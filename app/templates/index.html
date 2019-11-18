@@ -4,47 +4,43 @@
 {% block content%}
 
 <div id="container-fluid">
-<div class = "b">
-		<!-- Business News Section  -->
+    
+        <!-- Business News Section  -->
         <h3> Top Business News Sources</h3>
         <hr>
 
-        {{ macro.displaySourceList(sources)}}
 
-        <!-- Business News Section  -->
-</div>
+            {{ macro.displaySourceList(sources)}}
 
-        <div class = "b">
+        </div> <!-- Business News Section  -->
+    </div>
+
+    
         <h3> Top Technology News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(technology_sources)}}
 
         <!-- Entertainment News Section  -->
-        </div>
-         
-        <div class = "b">
+    
         <h3> Top Entertainment News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(entertainment_sources)}}
 
         <!-- Entertainment News Section  -->
-        </div>
-
-        <div class = "b">
         <h3> Top Sports News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(sports_sources)}}
-	
-</div>
+
+
 </div>
 
 
 {% block styles%}
-    {{ super() }}
-    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
 {% endblock %}
 
 {%endblock%}

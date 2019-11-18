@@ -1,6 +1,7 @@
 {% macro displaySourceList(source_list) %}
 
 	{% for source_row in source_list |batch(4)%}
+	<div class="container">
         <div class="row">
         	
 	        	
@@ -26,7 +27,8 @@
 		        </div>
             {% endfor %}
 	        	
-        </div>
+		</div>
+	</div>
     {% endfor %}
 
 {% endmacro %}

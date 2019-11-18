@@ -3,7 +3,8 @@
 
 {% block content%}
 
-<div class="container">
+<div id="container-fluid">
+<div class = "b">
 		<!-- Business News Section  -->
         <h3> Top Business News Sources</h3>
         <hr>
@@ -11,26 +12,33 @@
         {{ macro.displaySourceList(sources)}}
 
         <!-- Business News Section  -->
-         
+</div>
+
+        <div class = "b">
         <h3> Top Technology News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(technology_sources)}}
 
         <!-- Entertainment News Section  -->
+        </div>
          
+        <div class = "b">
         <h3> Top Entertainment News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(entertainment_sources)}}
 
         <!-- Entertainment News Section  -->
-         
+        </div>
+
+        <div class = "b">
         <h3> Top Sports News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(sports_sources)}}
 	
+</div>
 </div>
 
 

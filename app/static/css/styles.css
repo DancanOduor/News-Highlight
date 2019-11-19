@@ -9,11 +9,12 @@ h3{
 }
 
 .panel{
-  margin-left: 50px;
+  /* padding:20px; */
+  /* margin-left: 50px; */
   text-align: center;
   width: 100%;
   padding:50px;
-  margin:30px;
+  /* margin:30px; */
   box-shadow:10px 10px 10px 0;
   background-color:lawngreen;
 }

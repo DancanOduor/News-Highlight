@@ -9,7 +9,7 @@ h3{
 }
 
 .panel{
-  width: 80%;
+  width: 150%;
   padding:50px;
   margin:30px;
   box-shadow:10px 10px 10px 0;
@@ -17,6 +17,7 @@ h3{
 }
  .btn-success{
    text-align: center;
+   width: 50%;
  }
   .btn-group-sm>.btn, .btn-sm { 
  text-align: center; 
